@@ -1,0 +1,20 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Manas\Downloads\Auto Job Applier\Total Job Application process flow\projects\regime-model-factor-panel\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Manas\Downloads\Auto Job Applier\Total Job Application process flow
+configfile: pytest.ini
+collecting ... collected 11 items
+
+tests\test_regime_model.py::test_panel_is_30_real_years_of_weekly_data PASSED [  9%]
+tests\test_regime_model.py::test_transition_matrix_rows_sum_to_one PASSED [ 18%]
+tests\test_regime_model.py::test_stationary_distribution_is_a_valid_distribution PASSED [ 27%]
+tests\test_regime_model.py::test_forward_filter_rows_sum_to_one PASSED   [ 36%]
+tests\test_regime_model.py::test_smoother_rows_sum_to_one_and_matches_filter_at_last_week PASSED [ 45%]
+tests\test_regime_model.py::test_one_step_predictive_uses_only_strictly_prior_alpha PASSED [ 54%]
+tests\test_regime_model.py::test_oracle_matches_fast_path_on_a_short_prefix PASSED [ 63%]
+tests\test_regime_model.py::test_qlike_prefers_the_true_variance_in_expectation PASSED [ 72%]
+tests\test_regime_model.py::test_run_all_measurements_reports_every_claim_shape PASSED [ 81%]
+tests\test_regime_model.py::test_sql_group_by_matches_a_hand_computed_per_state_mean PASSED [ 90%]
+tests\test_regime_model.py::test_return_predictability_never_trains_on_the_test_week_or_later PASSED [100%]
+
+============================= 11 passed in 2.31s ==============================

@@ -1,0 +1,52 @@
+{
+  "n_weeks": 1566,
+  "n_states": 3,
+  "transition_matrix": [
+    [
+      0.174496644295302,
+      0.6510067114093959,
+      0.174496644295302
+    ],
+    [
+      0.06926751592356688,
+      0.8455414012738853,
+      0.08519108280254777
+    ],
+    [
+      0.21875,
+      0.6125,
+      0.16875
+    ]
+  ],
+  "state_variances_annualized_pct": [
+    21.53759468211059,
+    11.027033939529082,
+    24.992214857079873
+  ],
+  "qlike_ewma": 2.6749516345893034,
+  "qlike_filtered": 2.859338333664303,
+  "qlike_smoothed": 2.371119184326047,
+  "filtered_improvement_pct_over_ewma": -6.893085343702271,
+  "smoothed_improvement_pct_over_ewma": 11.358427806112651,
+  "smoothed_overstatement_ratio": null,
+  "smoothed_overstatement_pct_points": 18.251513149814922,
+  "oos_r2_return_predictability": -0.010083045329069007,
+  "n_oos_weeks_return_predictability": 1306,
+  "oracle_check": {
+    "prefix_weeks": 30,
+    "filtered_max_abs_diff": 1.3877787807814457e-17,
+    "smoothed_max_abs_diff": 1.1102230246251565e-16
+  },
+  "sql_vs_gmm_state_variance_check": {
+    "gmm_fitted_variance": [
+      8.920538167132277,
+      2.3383745673755048,
+      12.011746220431615
+    ],
+    "sql_mean_squared_return_by_state": {
+      "0": 20.210624161073827,
+      "1": 2.3614902147971355,
+      "2": 24.211136249999996
+    }
+  }
+}

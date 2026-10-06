@@ -1,0 +1,4 @@
+n_weeks=1566
+first_week=1996-08-30
+last_week=2026-08-28
+wrote data/real_factor_panel.csv
